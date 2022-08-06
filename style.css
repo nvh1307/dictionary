@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body{
+    height: 100vh;
+    background: #ae9cff;
+
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    background: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 30px;
+    
+
+}
+.search{
+    padding-left: 15px ;
+}
+.search__bar{
+    width: 70%;
+    border: none;
+    border-bottom: 3px solid #ae9cff;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 18px;
+}
+.search__btn{
+  
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background: rgb(104, 107, 239);
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+
+
+}
+.translate{
+    margin: 80px;
+   
+
+    
+}
+.word_class{
+    display: flex;
+    justify-content: space-between;
+
+}
+.word{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #1f194c;
+
+}
+.volumn_btn{
+    background-color: transparent;
+    border: none;
+    color: #ae9cff;
+    outline: none;
+    cursor: pointer;
+
+}
+.detail{
+    display: flex;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+
+}
+.meaning{
+    color: #575a7b;
+}
+.example{
+    font-style: italic;
+    border-left:3px solid #ae9cff;
+    padding-left: 20px;
+    color: #575a7b;
+    margin-top: 15px;
+
+}
+.error{
+    margin-top: 80px;
+    align-items: center;
+}
